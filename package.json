@@ -1,0 +1,53 @@
+{
+  "name": "dana.id",
+  "version": "0.0.1",
+  "description": " Unofficial Dana.id API Wrapper is an application programming interface that allows you to see the status of nominal balances on the Dana.id application.",
+  "keywords": [
+    "libraries",
+    "server",
+    "client",
+    "automation",
+    "api"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Ogie Nurdiana",
+      "email": "ogie.nurdiana447@gmail.com",
+      "homepage": "https://ogienurdiana.com",
+      "role": "developer"
+    }
+  ],
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www",
+    "dev": "nodemon ./bin/www --exec babel-node",
+    "server": "npm run dev"
+  },
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cookie-parser": "~1.4.4",
+    "debug": "~2.6.9",
+    "express": "^4.18.2",
+    "fs": "^0.0.1-security",
+    "get-current-line": "^6.6.0",
+    "http-errors": "~1.6.3",
+    "jade": "^1.11.0",
+    "jstransformer": "^1.0.0",
+    "morgan": "~1.9.1",
+    "pug": "^3.0.2",
+    "puppeteer": "^21.0.3",
+    "puppeteer-extra": "^3.3.6",
+    "puppeteer-extra-plugin-adblocker": "^2.13.6",
+    "puppeteer-extra-plugin-stealth": "^2.11.2",
+    "transformers": "^1.8.3",
+    "user-agents": "^1.0.1444"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.22.10",
+    "@babel/core": "^7.22.10",
+    "@babel/node": "^7.22.10",
+    "@babel/preset-env": "^7.22.10",
+    "nodemon": "^3.0.1"
+  }
+}
