@@ -10,7 +10,8 @@
 }
 ```
 
-#### Check Balance
+#### Endpoints
+Check balance
 - `{url}/cek-saldo`
 - parameters
 ```
